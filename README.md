@@ -5,15 +5,18 @@ Imagine a truck transporting fragile or high-risk items like diamonds, vaccines,
 
 So, we implemented a Failproof Foam Alarm System for Cargo Transport which is triggered by monitoring one condition:
 
-•	Truck instability (via a tilt/level meter)
-If the tilt sensor is triggered:
+  •	Truck instability (via a tilt/level meter)
 
-•	A servo motor activates and dispenses protective foam to cushion and secure the cargo.
+   If the tilt sensor is triggered:
 
-•	A buzzer is activated to alert nearby personnel.
+    •	A servo motor activates and dispenses protective foam to cushion and secure the cargo.
 
-•	LEDs/LCDs display the warning.
+    •	A buzzer is activated to alert nearby personnel.
+
+    •	LEDs/LCDs display the warning.
 
 This system addresses the crucial safety need in high-risk transport sectors. The foam protects cargo from mechanical damage, while audio-visual alarms ensure prompt response. It combines mechanical actuation and real-time electronic detection in a smart embedded system.
+
+**In this system we used (SG90 Micro Servo motor, Active Buzzer, 5161BS 7segment display, SW-520D Tilt Sensor, STM32F411CEU6 microcontroller and ST-LINK V2)**
 
 This is our project for Microprocessor subject, SKEE3223 for **UTM** university!
